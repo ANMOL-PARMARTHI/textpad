@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/textpad/static/css/main.36991cd5.css",
+    "main.js": "/textpad/static/js/main.a692e1c6.js",
+    "static/js/787.b5f9dfcf.chunk.js": "/textpad/static/js/787.b5f9dfcf.chunk.js",
+    "index.html": "/textpad/index.html",
+    "main.36991cd5.css.map": "/textpad/static/css/main.36991cd5.css.map",
+    "main.a692e1c6.js.map": "/textpad/static/js/main.a692e1c6.js.map",
+    "787.b5f9dfcf.chunk.js.map": "/textpad/static/js/787.b5f9dfcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36991cd5.css",
+    "static/js/main.a692e1c6.js"
+  ]
+}
