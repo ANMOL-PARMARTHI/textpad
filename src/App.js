@@ -4,13 +4,13 @@ import './App.css';
 import Navbar from './component/Navbar';
 import TextForm from './component/TextForm';
 import Alert from './component/Alert';
-//import About from './component/About.js';
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   Link
-// } from "react-router-dom";
+import About from './component/About.js';
+import {
+   BrowserRouter as Router,
+   Routes,
+   Route,
+   Link
+ } from "react-router-dom";
 
 
 
@@ -52,29 +52,29 @@ const toggleMode = () =>{
 
 
 
-     {/* <Router> */}
-    <Navbar title='Text Pad'  darkMode = {darkMode} toggleMode = {toggleMode} />
+       <Router>   
+    <Navbar title='Text Pad' aboutText = {"About"} darkMode = {darkMode} toggleMode = {toggleMode} />
     <Alert alert ={alert}/>
      <div className="container my-5">
-      {/* <Routes>
+        <Routes>
         <Route exact path="/about" element={ <About/>}>
-         </Route> */}
+         </Route>   
         
-         {/* <Route exact path="/" element = { */}
+           <Route exact path="/" element = {   
 
           <TextForm heading="Enter Your Text Below:" showAlert = {showAlert} darkMode = {darkMode}/>
-          {/* }>  */}
+            }>    
         
-         {/* </Route>
+           </Route>
        </Routes>
-      */}
+        
 
      </div>
      
 
 
 
-     {/* </Router> */}
+       </Router>   
 
 
 
